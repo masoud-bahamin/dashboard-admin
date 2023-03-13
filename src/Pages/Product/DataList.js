@@ -36,9 +36,9 @@ export default function DataList() {
                                 </select>
                             </div>
                             <div className='col-lg-3 col-md-6 col-sm-6 col-6'>
-                                <div class="input-group  rounded-25p align-items-center d-flex fs-12 ms-2 border">
-                                    <input type="text" class="form-control border-none rounded-25p bg-l fs-12" placeholder="Search" />
-                                    <button class="btn btn-outline-secondary rounded-25p border-none py-0" >
+                                <div className="input-group  rounded-25p align-items-center d-flex fs-12 ms-2 border">
+                                    <input type="text" className="form-control border-none rounded-25p bg-l fs-12" placeholder="Search" />
+                                    <button className="btn btn-outline-secondary rounded-25p border-none py-0" >
                                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 svg-25 hover-gold">
                                             <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
                                         </svg>

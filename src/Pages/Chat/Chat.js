@@ -75,8 +75,8 @@ export default function Chat() {
                                     value={text}
                                     className='form-control border-none fs-12'
                                     type="text" placeholder='Say somethings' />
-                                <i class='bx bx-paperclip fs-3 border color-gold2 rounded-50 p-2 ms-2 pointer'></i>
-                                <i class='bx bx-send fs-3 border color-gold2 rounded-50 p-2 ms-2 pointer'
+                                <i className='bx bx-paperclip fs-3 border color-gold2 rounded-50 p-2 ms-2 pointer'></i>
+                                <i className='bx bx-send fs-3 border color-gold2 rounded-50 p-2 ms-2 pointer'
                                     onClick={submitHandler}
                                 ></i>
                             </div>
@@ -94,7 +94,7 @@ export default function Chat() {
                                     onClick={() => setShow("contacts")}
                                 >Contacts</p>
                             </div>
-                            <input type="text" class="form-control rounded-25p fs-12" placeholder="Search" />
+                            <input type="text" className="form-control rounded-25p fs-12" placeholder="Search" />
                             {show === "messages" ? (
                                 <div className='overflow-y-auto scroll py-4' style={{ height: "50vh" }}>
                                     <ContactBox img="l-3.jpg" name="David Beckham" />

@@ -38,20 +38,20 @@ export default function Content() {
                         </div>
                         <div className='bg-white p-4 rounded-25p shadow-sm'>
                             <h5 className='h5 py-3 fw-600'>Quick Post</h5>
-                            <form class="dashboard-quick-post"><div class="row form-group">
-                                <label class="col-sm-3 col-form-label">Title</label>
-                                <div class="col-sm-9">
-                                    <input name="text" type="text" class="form-control" />
+                            <form className="dashboard-quick-post"><div className="row form-group">
+                                <label className="col-sm-3 col-form-label">Title</label>
+                                <div className="col-sm-9">
+                                    <input name="text" type="text" className="form-control" />
                                 </div>
                             </div>
-                                <div class="row form-group">
-                                    <label class="col-sm-3 col-form-label">Content</label>
-                                    <div class="col-sm-9">
-                                        <textarea rows="3" class="form-control my-4"></textarea>
+                                <div className="row form-group">
+                                    <label className="col-sm-3 col-form-label">Content</label>
+                                    <div className="col-sm-9">
+                                        <textarea rows="3" className="form-control my-4"></textarea>
                                     </div>
                                 </div>
-                                <div class="row form-group ">
-                                    <label class="col-sm-3 col-form-label">Category</label>
+                                <div className="row form-group ">
+                                    <label className="col-sm-3 col-form-label">Category</label>
                                     <div className='col-sm-9 mb-4'>
                                         <select className='form-select  '>
                                             <option>number one</option>
@@ -60,7 +60,7 @@ export default function Content() {
 
                                 </div>
                                 <div className='d-flex'>
-                                    <button class="ms-auto btn btn-primary bg-gold4 border-gold rounded-25p">Save and Publish</button>
+                                    <button className="ms-auto btn btn-primary bg-gold4 border-gold rounded-25p">Save and Publish</button>
                                 </div>
 
                             </form>

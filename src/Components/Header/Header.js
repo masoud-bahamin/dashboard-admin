@@ -48,9 +48,9 @@ export default function Header() {
                                     xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={.75} stroke="currentColor" className="w-6 h-6 svg-25">
                                     <path strokeLinecap="round" strokeLinejoin="round" d="M8.25 6.75h12M8.25 12h12m-12 5.25h12M3.75 6.75h.007v.008H3.75V6.75zm.375 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zM3.75 12h.007v.008H3.75V12zm.375 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zm-.375 5.25h.007v.008H3.75v-.008zm.375 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z" />
                                 </svg>
-                                <div class="input-group  rounded-25p bg-l align-items-center d-flex w-75">
-                                    <input type="text" class="form-control border-none rounded-25p bg-l fs-12" placeholder="Search" />
-                                    <button class="btn btn-outline-secondary rounded-25p border-none" >
+                                <div className="input-group  rounded-25p bg-l align-items-center d-flex w-75">
+                                    <input type="text" className="form-control border-none rounded-25p bg-l fs-12" placeholder="Search" />
+                                    <button className="btn btn-outline-secondary rounded-25p border-none" >
                                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 svg-25 hover-gold">
                                             <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
                                         </svg>
@@ -63,7 +63,7 @@ export default function Header() {
                                     }}
                                         className='btn btn-light py-2 px-3 rounded-25p p-color4 fs-12'>
                                         EN
-                                        <i class='bx bx-chevron-down ms-1 '></i>
+                                        <i className='bx bx-chevron-down ms-1 '></i>
                                     </button>
                                     <div className={show === "lan" ? 'bd-white py-2 shadow-sm border rounded dropdown-show' : 'bd-white py-2 shadow-sm border rounded dropdown-close'}>
                                         <ul>
@@ -82,8 +82,8 @@ export default function Header() {
                         </div>
                         <div className=' col-xl-4 col-lg-12 col-md-12 col-sm-12 col-xs-12 d-none-450'>
                             <div className='d-flex align-items-center justify-content-around'>
-                                <div class="form-check form-switch d-flex align-items-center ms-5 pointer">
-                                    <input class="form-check-input header-form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault" />
+                                <div className="form-check form-switch d-flex align-items-center ms-5 pointer">
+                                    <input className="form-check-input header-form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault" />
                                 </div>
                                 <div className='position-relative'>
                                     <svg onClick={(e) => {
@@ -205,7 +205,7 @@ export default function Header() {
                             xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={.75} stroke="currentColor" className="w-6 h-6 svg-25 hover-gold">
                             <path strokeLinecap="round" strokeLinejoin="round" d="M8.25 6.75h12M8.25 12h12m-12 5.25h12M3.75 6.75h.007v.008H3.75V6.75zm.375 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zM3.75 12h.007v.008H3.75V12zm.375 0a.375.375 0 11-.75 0 .375.375 0 01.75 0zm-.375 5.25h.007v.008H3.75v-.008zm.375 0a.375.375 0 11-.75 0 .375.375 0 01.75 0z" />
                         </svg>
-                        <button class="btn btn-outline-secondary rounded-25p border-none" >
+                        <button className="btn btn-outline-secondary rounded-25p border-none" >
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 svg-25 hover-gold">
                                 <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
                             </svg>

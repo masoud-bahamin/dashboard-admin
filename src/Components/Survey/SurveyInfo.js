@@ -53,18 +53,18 @@ export default function SurveyInfo() {
                         </p>
                     </div>
                     <div className='col-lg-4 col-md-4 col-sm-4 col-6 d-flex'>
-                        <span class="position-relative d-flex rounded-25p align-items-center color-gold4 border-gold  fs-14 px-3">
+                        <span className="position-relative d-flex rounded-25p align-items-center color-gold4 border-gold  fs-14 px-3">
                             Save
                             <button onClick={(e) => {
                                 e.stopPropagation()
                                 setShowOptions(prev => !prev)
                             }}
-                                class="btn dropdown-toggle color-gold4 border-none" >
+                                className="btn dropdown-toggle color-gold4 border-none" >
                             </button>
-                            <ul class={showOptions ? "dropdown-menu dropdown-menu-end top-100 end-0 py-3  show" : "dropdown-menu dropdown-menu-end"}>
-                                <li ><a class="dropdown-item" href="#">Delete</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            <ul className={showOptions ? "dropdown-menu dropdown-menu-end top-100 end-0 py-3  show" : "dropdown-menu dropdown-menu-end"}>
+                                <li ><a className="dropdown-item" href="#">Delete</a></li>
+                                <li><a className="dropdown-item" href="#">Another action</a></li>
+                                <li><a className="dropdown-item" href="#">Something else here</a></li>
                             </ul>
                         </span>
                     </div>
@@ -108,67 +108,67 @@ export default function SurveyInfo() {
                         <div className="col-lg-4 col-md-4 col-sm-6">
                             <div className='p-4 bg-white rounded-15p mt-4 align-items-center'>
                                 <p className='mb-3 hover-gold fw-600 pointer'>Quota</p>
-                                <div class="mb-4">
+                                <div className="mb-4">
                                     <div className='d-flex mb-2'>
-                                        <p class="fs-14 p-color4">Gender
+                                        <p className="fs-14 p-color4">Gender
                                         </p>
                                     </div>
-                                    <div class="progress">
-                                        <div class="progress-bar w-75 fs.8" role="progressbar" aria-valuenow="66.66666666666666" aria-valuemin="0" aria-valuemax="100" >
+                                    <div className="progress">
+                                        <div className="progress-bar w-75 fs.8" role="progressbar" aria-valuenow="66.66666666666666" aria-valuemin="0" aria-valuemax="100" >
                                         </div>
                                     </div>
-                                    <div class="fs-14 p-color4 mb-2 mt-3">105/125 Male</div>
-                                    <div class="fs-14 p-color4">90/125 Female</div>
+                                    <div className="fs-14 p-color4 mb-2 mt-3">105/125 Male</div>
+                                    <div className="fs-14 p-color4">90/125 Female</div>
                                 </div>
-                                <div class="mb-4">
+                                <div className="mb-4">
                                     <div className='d-flex mb-2'>
-                                        <p class="fs-14 p-color4">Education
-                                        </p>
-
-                                    </div>
-                                    <div class="progress">
-                                        <div class="progress-bar w-25 fs.8" role="progressbar" aria-valuenow="66.66666666666666" aria-valuemin="0" aria-valuemax="100" >
-                                        </div>
-                                    </div>
-                                    <div class="fs-14 p-color4 mb-2 mt-3">300/125 College</div>
-                                    <div class="fs-14 p-color4">95/125 High School</div>
-                                </div>
-                                <div class="mb-4">
-                                    <div className='d-flex mb-2'>
-                                        <p class="fs-14 p-color4">Age
+                                        <p className="fs-14 p-color4">Education
                                         </p>
 
                                     </div>
-                                    <div class="progress">
-                                        <div class="progress-bar w-75 fs.8" role="progressbar" aria-valuenow="66.66666666666666" aria-valuemin="0" aria-valuemax="100" >
+                                    <div className="progress">
+                                        <div className="progress-bar w-25 fs.8" role="progressbar" aria-valuenow="66.66666666666666" aria-valuemin="0" aria-valuemax="100" >
                                         </div>
                                     </div>
-                                    <div class="fs-14 p-color4 mb-2 mt-3">	50/75 18-24</div>
-                                    <div class="fs-14 p-color4 mb-2">40/75 24-30</div>
-                                    <div class="fs-14 p-color4">60/75 30-40</div>
+                                    <div className="fs-14 p-color4 mb-2 mt-3">300/125 College</div>
+                                    <div className="fs-14 p-color4">95/125 High School</div>
                                 </div>
-                                <div class="mb-4">
+                                <div className="mb-4">
                                     <div className='d-flex mb-2'>
-                                        <p class="fs-14 p-color4">Work
+                                        <p className="fs-14 p-color4">Age
+                                        </p>
+
+                                    </div>
+                                    <div className="progress">
+                                        <div className="progress-bar w-75 fs.8" role="progressbar" aria-valuenow="66.66666666666666" aria-valuemin="0" aria-valuemax="100" >
+                                        </div>
+                                    </div>
+                                    <div className="fs-14 p-color4 mb-2 mt-3">	50/75 18-24</div>
+                                    <div className="fs-14 p-color4 mb-2">40/75 24-30</div>
+                                    <div className="fs-14 p-color4">60/75 30-40</div>
+                                </div>
+                                <div className="mb-4">
+                                    <div className='d-flex mb-2'>
+                                        <p className="fs-14 p-color4">Work
                                         </p>
                                         
                                     </div>
-                                    <div class="progress">
-                                        <div class="progress-bar w-50 fs.8" role="progressbar" aria-valuenow="66.66666666666666" aria-valuemin="0" aria-valuemax="100" >
+                                    <div className="progress">
+                                        <div className="progress-bar w-50 fs.8" role="progressbar" aria-valuenow="66.66666666666666" aria-valuemin="0" aria-valuemax="100" >
                                         </div>
                                     </div>
-                                    <div class="fs-14 p-color4 mb-2 mt-3">7/15 Looking for work</div>
-                                    <div class="fs-14 p-color4 mb-2">3/15 Employed for wages</div>
-                                    <div class="fs-14 p-color4">9-15 Self-employed</div>
+                                    <div className="fs-14 p-color4 mb-2 mt-3">7/15 Looking for work</div>
+                                    <div className="fs-14 p-color4 mb-2">3/15 Employed for wages</div>
+                                    <div className="fs-14 p-color4">9-15 Self-employed</div>
                                 </div>
-                                <div class="mb-4">
+                                <div className="mb-4">
                                     <div className='d-flex mb-2'>
-                                        <p class="fs-14 p-color4">Legal Documents
+                                        <p className="fs-14 p-color4">Legal Documents
                                         </p>
-                                        <span class="ms-auto fs-14 p-color4">1/3</span>
+                                        <span className="ms-auto fs-14 p-color4">1/3</span>
                                     </div>
-                                    <div class="progress">
-                                        <div class="progress-bar w-25 fs.8" role="progressbar" aria-valuenow="66.66666666666666" aria-valuemin="0" aria-valuemax="100" >
+                                    <div className="progress">
+                                        <div className="progress-bar w-25 fs.8" role="progressbar" aria-valuenow="66.66666666666666" aria-valuemin="0" aria-valuemax="100" >
                                         </div>
                                     </div>
                                 </div>

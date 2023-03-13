@@ -10,7 +10,7 @@ export default function AcordeonListItem({ children , title}) {
         <div className='mb-4'>
             <div onClick={() => setShow(prev => !prev)}
                 className='d-flex mb-3 acardeon-pages-items p-color4 pointer'>
-                <i class='bx bxs-chevron-down me-2'></i>
+                <i className='bx bxs-chevron-down me-2'></i>
                 <p>{title}</p>
             </div>
 

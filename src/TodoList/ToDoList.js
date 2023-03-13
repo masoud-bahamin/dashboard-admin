@@ -65,18 +65,18 @@ export default function ToDoList() {
             {showRightModal &&
                 <RightModal title="New Todo" setShowRightModal={setShowRightModal}>
                     <div>
-                        <div class="mb-4">
-                            <label for="exampleFormControlInput1" class="form-label">Title</label>
+                        <div className="mb-4">
+                            <label for="exampleFormControlInput1" className="form-label">Title</label>
                             <input name="title" onChange={changeHandler}
-                                type="email" class="form-control" id="exampleFormControlInput1" placeholder="" />
+                                type="email" className="form-control" id="exampleFormControlInput1" placeholder="" />
                         </div>
-                        <div class="mb-4">
-                            <label for="exampleFormControlTextarea1" class="form-label">Detail</label>
+                        <div className="mb-4">
+                            <label for="exampleFormControlTextarea1" className="form-label">Detail</label>
                             <textarea name="detail" onChange={changeHandler}
-                                class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                className="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
                         </div>
-                        <div class="mb-4">
-                            <label for="exampleFormControlInput1" class="form-label">Category</label>
+                        <div className="mb-4">
+                            <label for="exampleFormControlInput1" className="form-label">Category</label>
                             <select name="category" onChange={changeHandler}
                                 className='form-select'>
                                 <option></option>
@@ -85,8 +85,8 @@ export default function ToDoList() {
                                 <option value="React">React</option>
                             </select>
                         </div>
-                        <div class="mb-4">
-                            <label for="exampleFormControlInput1" class="form-label">Lable</label>
+                        <div className="mb-4">
+                            <label for="exampleFormControlInput1" className="form-label">Lable</label>
                             <select name="status" onChange={changeHandler}
                                 className='form-select'>
                                 <option></option>
@@ -97,27 +97,27 @@ export default function ToDoList() {
                             
                         </div>
                         <p className='mb-3 p-color4 fs-14 mt-5'>Status</p>
-                        <div class="form-check fs-14">
+                        <div className="form-check fs-14">
                             <input onChange={changeHandler} value={1}
-                                class="form-check-input" type="radio" name="checked" id="flexRadioDefault1" />
-                            <label class="form-check-label" for="flexRadioDefault1">
+                                className="form-check-input" type="radio" name="checked" id="flexRadioDefault1" />
+                            <label className="form-check-label" for="flexRadioDefault1">
                                 COMPLETED
                             </label>
                         </div>
-                        <div class="form-check">
+                        <div className="form-check">
                             <input onChange={changeHandler} value={0}
-                                class="form-check-input" type="radio" name="checked" id="flexRadioDefault2" />
-                            <label class="form-check-label" for="flexRadioDefault2">
+                                className="form-check-input" type="radio" name="checked" id="flexRadioDefault2" />
+                            <label className="form-check-label" for="flexRadioDefault2">
                                 PENDIING
                             </label>
                         </div>
                         <div className='mt-3 border-top text-center py-3'>
                             <button onClick={() => setShowRightModal(false)}
-                                class="btn btn-outline-secondary rounded-25p  border-gold me-2" type="button">
+                                className="btn btn-outline-secondary rounded-25p  border-gold me-2" type="button">
                                 Cancel
                             </button>
                             <button onClick={submitHandler}
-                                class="btn btn-outline-secondary rounded-25p bg-gold4 text-white border-none" type="button">
+                                className="btn btn-outline-secondary rounded-25p bg-gold4 text-white border-none" type="button">
                                 Submit
                             </button>
 
@@ -137,9 +137,9 @@ export default function ToDoList() {
                             <option value="category">Category</option>
                             <option value="status">Status</option>
                         </select>
-                        <div class="input-group  rounded-25p align-items-center d-flex w-50 fs-12 ms-2 border">
-                            <input type="text" class="form-control border-none rounded-25p bg-l fs-12" placeholder="Search" />
-                            <button class="btn btn-outline-secondary rounded-25p border-none" >
+                        <div className="input-group  rounded-25p align-items-center d-flex w-50 fs-12 ms-2 border">
+                            <input type="text" className="form-control border-none rounded-25p bg-l fs-12" placeholder="Search" />
+                            <button className="btn btn-outline-secondary rounded-25p border-none" >
                                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 svg-25 hover-gold">
                                     <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
                                 </svg>
@@ -149,20 +149,20 @@ export default function ToDoList() {
                     <div className='col-lg-4 col-md-4 d-flex my-1'>
                         <button onClick={() => setShowRightModal(true)}
                             className='btn btn-light bg-gold4 text-white rounded-25p fs-14 fw-600 px-4 ms-auto me-2'>ADD NEW</button>
-                        <span class="input-group position-relative d-flex rounded-25p align-items-center rounded-50p bg-gold4 text-white img-100 px-3">
+                        <span className="input-group position-relative d-flex rounded-25p align-items-center rounded-50p bg-gold4 text-white img-100 px-3">
                             <input style={{ border: "1px solid white", background: "#ae8c27" }}
-                                class="form-check-input me-3" type="checkbox" value="all" id="flexCheckDefault" />
+                                className="form-check-input me-3" type="checkbox" value="all" id="flexCheckDefault" />
                             <button onClick={(e) => {
                                 e.stopPropagation()
                                 setShowOptions(prev => !prev)
                             }}
-                                class="btn btn-outline-secondary dropdown-toggle text-white border-none" >
+                                className="btn btn-outline-secondary dropdown-toggle text-white border-none" >
                             </button>
-                            <ul class={showOptions ? "dropdown-menu dropdown-menu-end top-100 end-0 py-3  show" : "dropdown-menu dropdown-menu-end"}>
+                            <ul className={showOptions ? "dropdown-menu dropdown-menu-end top-100 end-0 py-3  show" : "dropdown-menu dropdown-menu-end"}>
                                 <li onClick={deleteHandler}
-                                ><a class="dropdown-item" href="#">Delete</a></li>
-                                <li><a class="dropdown-item" href="#">Another action</a></li>
-                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                                ><a className="dropdown-item" href="#">Delete</a></li>
+                                <li><a className="dropdown-item" href="#">Another action</a></li>
+                                <li><a className="dropdown-item" href="#">Something else here</a></li>
                             </ul>
                         </span>
                     </div>
@@ -204,24 +204,24 @@ export default function ToDoList() {
                                 <p className='ms-auto fs-14'>{todos.filter(t => t.checked == 1).length}</p>
                             </div>
                             <p className='mb-3 p-color4 fs-14 mt-5'>Categories</p>
-                            <div class="form-check fs-14">
+                            <div className="form-check fs-14">
                                 <input onChange={() => filterHandler("category","Flexbox")}
-                                    class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" />
-                                <label class="form-check-label" for="flexRadioDefault1">
+                                    className="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" />
+                                <label className="form-check-label" for="flexRadioDefault1">
                                     Flexbox
                                 </label>
                             </div>
-                            <div class="form-check">
+                            <div className="form-check">
                                 <input onChange={() => filterHandler("category","Html")}
-                                    class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" />
-                                <label class="form-check-label" for="flexRadioDefault2">
+                                    className="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2" />
+                                <label className="form-check-label" for="flexRadioDefault2">
                                     Html
                                 </label>
                             </div>
-                            <div class="form-check">
+                            <div className="form-check">
                                 <input onChange={() => filterHandler("category","React")}
-                                    class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3" />
-                                <label class="form-check-label" for="flexRadioDefault2">
+                                    className="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault3" />
+                                <label className="form-check-label" for="flexRadioDefault2">
                                     React
                                 </label>
                             </div>

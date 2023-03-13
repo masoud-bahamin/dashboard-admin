@@ -41,11 +41,11 @@ export default function DetailsAlt() {
                                         faucibus orci luctus et ultrices posuere cubilia Curae; Pellentesque quis cursus mauris.
                                     </p>
                                     <p className='mt-3 mb-1 fs-12 p-color-4'>Rating</p>
-                                    <i class='bx bxs-star color-gold4'></i>
-                                    <i class='bx bxs-star color-gold4'></i>
-                                    <i class='bx bxs-star color-gold4'></i>
-                                    <i class='bx bxs-star color-gold4'></i>
-                                    <i class='bx bxs-star color-gold4'></i>
+                                    <i className='bx bxs-star color-gold4'></i>
+                                    <i className='bx bxs-star color-gold4'></i>
+                                    <i className='bx bxs-star color-gold4'></i>
+                                    <i className='bx bxs-star color-gold4'></i>
+                                    <i className='bx bxs-star color-gold4'></i>
                                     <p className='mt-3 mb-1 fs-12 p-color-4'>Price</p>
 
                                     <p className=' mb-3 fs-14'>$8.14</p>
@@ -137,31 +137,31 @@ export default function DetailsAlt() {
                                     <div className='d-flex align-items-center border-bottom mb-3'>
                                         <Comments title="Mimi Carretim" img="l-4.jpg" details="Pellentesque quis cursus mauris." />
                                         <div className="ms-auto">
-                                            <i class='bx bxs-star color-gold4'></i>
-                                            <i class='bx bxs-star color-gold4'></i>
-                                            <i class='bx bxs-star color-gold4'></i>
-                                            <i class='bx bxs-star color-gold4'></i>
-                                            <i class='bx bxs-star color-gold4'></i>
+                                            <i className='bx bxs-star color-gold4'></i>
+                                            <i className='bx bxs-star color-gold4'></i>
+                                            <i className='bx bxs-star color-gold4'></i>
+                                            <i className='bx bxs-star color-gold4'></i>
+                                            <i className='bx bxs-star color-gold4'></i>
                                         </div>
                                     </div>
                                     <div className='d-flex align-items-center border-bottom mb-3'>
                                         <Comments title="Mimi Carretim" img="l-5.jpg" details="Pellentesque quis cursus mauris." />
                                         <div className="ms-auto">
-                                            <i class='bx bxs-star color-gold4'></i>
-                                            <i class='bx bxs-star color-gold4'></i>
-                                            <i class='bx bxs-star color-gold4'></i>
-                                            <i class='bx bxs-star color-gold4'></i>
-                                            <i class='bx bxs-star color-gold4'></i>
+                                            <i className='bx bxs-star color-gold4'></i>
+                                            <i className='bx bxs-star color-gold4'></i>
+                                            <i className='bx bxs-star color-gold4'></i>
+                                            <i className='bx bxs-star color-gold4'></i>
+                                            <i className='bx bxs-star color-gold4'></i>
                                         </div>
                                     </div>
                                     <div className='d-flex align-items-center border-bottom mb-3'>
                                         <Comments title="Mimi Carretim" img="l-1.jpg" details="Pellentesque quis cursus mauris." />
                                         <div className="ms-auto">
-                                            <i class='bx bxs-star color-gold4'></i>
-                                            <i class='bx bxs-star color-gold4'></i>
-                                            <i class='bx bxs-star color-gold4'></i>
-                                            <i class='bx bxs-star color-gold4'></i>
-                                            <i class='bx bxs-star color-gold4'></i>
+                                            <i className='bx bxs-star color-gold4'></i>
+                                            <i className='bx bxs-star color-gold4'></i>
+                                            <i className='bx bxs-star color-gold4'></i>
+                                            <i className='bx bxs-star color-gold4'></i>
+                                            <i className='bx bxs-star color-gold4'></i>
                                         </div>
                                     </div>
                                     

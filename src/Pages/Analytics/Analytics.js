@@ -36,58 +36,58 @@ export default function Analytics() {
                     <div className='col-md-4 p-3'>
                         <div className='bg-white p-4 rounded-25p shadow-sm  h-400'>
                             <h5 className='h5 py-3 fw-600'>Product Categories</h5>
-                            <div class="mb-4">
+                            <div className="mb-4">
                                 <div className='d-flex mb-2'>
-                                    <p class="fs-14 p-color4">Basic Information
+                                    <p className="fs-14 p-color4">Basic Information
                                     </p>
-                                    <span class="ms-auto fs-14 p-color4">10/15</span>
+                                    <span className="ms-auto fs-14 p-color4">10/15</span>
                                 </div>
-                                <div class="progress">
-                                    <div class="progress-bar w-75 fs.8" role="progressbar" aria-valuenow="66.66666666666666" aria-valuemin="0" aria-valuemax="100" >
+                                <div className="progress">
+                                    <div className="progress-bar w-75 fs.8" role="progressbar" aria-valuenow="66.66666666666666" aria-valuemin="0" aria-valuemax="100" >
                                     </div>
                                 </div>
                             </div>
-                            <div class="mb-4">
+                            <div className="mb-4">
                                 <div className='d-flex mb-2'>
-                                    <p class="fs-14 p-color4">Portfolio
+                                    <p className="fs-14 p-color4">Portfolio
                                     </p>
-                                    <span class="ms-auto fs-14 p-color4">2/8</span>
+                                    <span className="ms-auto fs-14 p-color4">2/8</span>
                                 </div>
-                                <div class="progress">
-                                    <div class="progress-bar w-25 fs.8" role="progressbar" aria-valuenow="66.66666666666666" aria-valuemin="0" aria-valuemax="100" >
+                                <div className="progress">
+                                    <div className="progress-bar w-25 fs.8" role="progressbar" aria-valuenow="66.66666666666666" aria-valuemin="0" aria-valuemax="100" >
                                     </div>
                                 </div>
                             </div>
-                            <div class="mb-4">
+                            <div className="mb-4">
                                 <div className='d-flex mb-2'>
-                                    <p class="fs-14 p-color4">Billing Details
+                                    <p className="fs-14 p-color4">Billing Details
                                     </p>
-                                    <span class="ms-auto fs-14 p-color4">4/6</span>
+                                    <span className="ms-auto fs-14 p-color4">4/6</span>
                                 </div>
-                                <div class="progress">
-                                    <div class="progress-bar w-75 fs.8" role="progressbar" aria-valuenow="66.66666666666666" aria-valuemin="0" aria-valuemax="100" >
+                                <div className="progress">
+                                    <div className="progress-bar w-75 fs.8" role="progressbar" aria-valuenow="66.66666666666666" aria-valuemin="0" aria-valuemax="100" >
                                     </div>
                                 </div>
                             </div>
-                            <div class="mb-4">
+                            <div className="mb-4">
                                 <div className='d-flex mb-2'>
-                                    <p class="fs-14 p-color4">Interests
+                                    <p className="fs-14 p-color4">Interests
                                     </p>
-                                    <span class="ms-auto fs-14 p-color4">5/10</span>
+                                    <span className="ms-auto fs-14 p-color4">5/10</span>
                                 </div>
-                                <div class="progress">
-                                    <div class="progress-bar w-50 fs.8" role="progressbar" aria-valuenow="66.66666666666666" aria-valuemin="0" aria-valuemax="100" >
+                                <div className="progress">
+                                    <div className="progress-bar w-50 fs.8" role="progressbar" aria-valuenow="66.66666666666666" aria-valuemin="0" aria-valuemax="100" >
                                     </div>
                                 </div>
                             </div>
-                            <div class="mb-4">
+                            <div className="mb-4">
                                 <div className='d-flex mb-2'>
-                                    <p class="fs-14 p-color4">Legal Documents
+                                    <p className="fs-14 p-color4">Legal Documents
                                     </p>
-                                    <span class="ms-auto fs-14 p-color4">1/3</span>
+                                    <span className="ms-auto fs-14 p-color4">1/3</span>
                                 </div>
-                                <div class="progress">
-                                    <div class="progress-bar w-25 fs.8" role="progressbar" aria-valuenow="66.66666666666666" aria-valuemin="0" aria-valuemax="100" >
+                                <div className="progress">
+                                    <div className="progress-bar w-25 fs.8" role="progressbar" aria-valuenow="66.66666666666666" aria-valuemin="0" aria-valuemax="100" >
                                     </div>
                                 </div>
                             </div>
