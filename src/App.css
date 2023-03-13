@@ -1,0 +1,387 @@
+/*  reset css */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+  font-family: "Nunito";
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+  font-family: "Nunito";
+  overflow-x: hidden;
+
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+a{
+  text-decoration: none;
+  color: inherit;
+  font-family: "Nunito";
+}
+/*  reset css */
+
+/* variable */
+
+:root{
+    --theme-color-1: #c0a145;
+    --theme-color-2: #e3b778;
+    --theme-color-3: #e6cd61;
+    --theme-color-4: #ae8c27;
+    --theme-color-5: #c9b69a;
+    --theme-color-6: #e2c33c;
+    --theme-color-1-10: rgba(192,161,69,0.1);
+    --theme-color-2-10: rgba(227,183,120,0.1);
+    --theme-color-3-10: rgba(230,205,97,0.1);
+    --theme-color-4-10: rgba(174,140,39,0.1);
+    --theme-color-5-10: rgba(201,182,154,0.1);
+    --theme-color-6-10: rgba(226,195,60,0.1);
+    --primary-color: #3a3a3a;
+    --separator-color: #d7d7d7;
+
+    --blue: #007bff;
+    --indigo: #6610f2;
+    --purple: #6f42c1;
+    --pink: #e83e8c;
+    --red: #dc3545;
+    --orange: #fd7e14;
+    --yellow: #ffc107;
+    --green: #28a745;
+    --teal: #20c997;
+    --cyan: #17a2b8;
+    --white: #fff;
+    --gray: #6c757d;
+    --gray-dark: #343a40;
+    --primary: #007bff;
+    --secondary: #6c757d;
+    --success: #28a745;
+    --info: #17a2b8;
+    --warning: #ffc107;
+    --danger: #dc3545;
+    --light: #f8f9fa;
+    --dark: #343a40;
+  
+}
+/* variable */
+
+/* default css */
+
+.svg-100{
+  width: 100px;
+  cursor: pointer;
+}
+.svg-75{
+  width: 75px;
+  cursor: pointer;
+}
+.svg-50{
+  width: 35px;
+  cursor: pointer;
+}
+.svg-30{
+  width: 30px;
+  cursor: pointer;
+}
+.svg-25{
+  width: 20px;
+  cursor: pointer;
+}
+
+.rounded-50{
+  border-radius: 50%;
+}
+.rounded-50p{
+  border-radius: 50px;
+}
+.rounded-25p{
+  border-radius: 25px;
+}
+.rounded-15p{
+  border-radius: 15px;
+}
+
+.border-none{
+  border: none;
+}
+
+.bg-w{
+  background-color: var(--white);
+}
+.bg-l{
+  background-color: var(--light);
+}
+
+.p-color1{
+  color: var(--primary-color);
+  font-family: "Nunito";
+}
+.p-color2{
+  color: var(--dark);
+  font-family: "Nunito";
+}
+.p-color3{
+  color: var(--gray-dark);
+  font-family: "Nunito";
+}
+.p-color4{
+  color: var(--secondary);
+  font-family: "Nunito";
+}
+
+.bg-gold1{
+  background-color: var(--theme-color-1);
+}
+.bg-gold2{
+  background-color: var(--theme-color-2);
+}
+.bg-gold3{
+  background-color: var(--theme-color-3);
+}
+.bg-gold4{
+  background-color: var(--theme-color-4);
+}
+.bg-gold5{
+  background-color: var(--theme-color-5);
+}
+.bg-gold6{
+  background-color: var(--theme-color-6);
+}
+
+
+.color-gold1{
+  color: var(--theme-color-1);
+}
+.color-gold2{
+  color: var(--theme-color-2);
+}
+.color-gold3{
+  color: var(--theme-color-3);
+}
+.color-gold4{
+  color: var(--theme-color-4);
+}
+.color-gold5{
+  color: var(--theme-color-5);
+}
+.color-gold6{
+  color: var(--theme-color-6);
+}
+
+.border-gold{
+  border: 1px solid var(--theme-color-1);
+}
+
+.hover-gold:hover{
+  color: var(--theme-color-1);
+}
+.hover-bg-gold:hover{
+  background-color: var(--theme-color-1);
+  color: var(--white);
+}
+
+.fs-8{
+  font-size: 8px;
+}
+.fs-12{
+  font-size: 12px;
+}
+
+.fs-14{
+  font-size: 14px;
+}
+
+.fw-500{
+  font-weight:500
+}
+.fw-600{
+  font-weight:600
+}
+
+.img-40{
+  width: 40px;
+  height: 40px;
+}
+.img-50{
+  width: 50px;
+  height: 50px;
+}
+
+.img-75{
+  width: 75px;
+}
+.img-100{
+  width: 100px;
+}
+.img-150{
+  width: 150px;
+}
+
+.main-container{
+  padding: 0 30px;
+}
+
+
+
+.pointer{
+  cursor: pointer;
+}
+
+.bg-main{
+  background-color: #f8f8f8;
+}
+
+.h-400{
+  height: 410px;
+}
+.h-500{
+  height: 500px;
+}
+.h-600{
+  height: 600px;
+}
+
+  /*scroll width */
+.scroll::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+.scroll::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px rgb(203, 203, 203); 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+.scroll::-webkit-scrollbar-thumb {
+  background: var(--separator-color); 
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+.scroll::-webkit-scrollbar-thumb:hover {
+  background: #878787; 
+}
+/* scroll */
+
+
+/* default css */
+
+.date-active{
+  color: var(--theme-color-4);
+  border: 2px solid var(--theme-color-4);
+  padding: 4px;
+  border-radius: 50%;
+}
+
+td{
+  padding: 20px 10px !important;
+}
+
+.progress{
+  height: 4px;
+}
+
+.progress-bar{
+  height: 4px;
+  background-color: var(--theme-color-4);
+}
+
+.form-select:focus{
+  box-shadow: 0px 0px 5px 1px var(--white);
+    border: 1px solid var(--theme-color-1);
+}
+
+.form-control:focus{
+  box-shadow: 0px 0px 5px 1px var(--white);
+    border: 1px solid var(--theme-color-1);
+}
+
+.form-check-input:checked {
+  box-shadow: 0px 0px 5px 1px var(--white);
+  border: 1px solid var(--theme-color-1);
+  background-color: var(--theme-color-4);
+}
+.form-check-input:focus {
+  border-color: var(--theme-color-1);
+  outline: 0;
+  box-shadow: 0 0 0 1px var(--theme-color-5);
+}
+
+.list-item{
+  padding: 10px;
+  cursor: pointer;
+  font-size: 14px;
+  min-width: 200px;
+}
+
+.list-item:hover{
+  color: var(--theme-color-4);
+  background-color: rgb(243, 239, 239);
+}
+
+
+/* responsive and media */
+
+@media screen and (max-width:1150px) {
+  .d-none-1150{
+    display: none;
+  }
+}
+
+
+@media screen and (max-width:750px) {
+  .main-container{
+    padding: 0 10px;
+  }
+
+  .d-none-750{
+    display: none;
+  }
+}
+
+
+@media screen and (max-width:450px) {
+ 
+  .d-none-450{
+    display: none;
+  }
+}
+
+@media screen and (max-width:850px) {
+  .footer-main{
+    margin-bottom: 30px;
+  }
+}
