@@ -27,6 +27,7 @@ const routes = [
             { path: "ecommerce", element: <Ecommerce /> },
             { path: "analytics", element: <Analytics /> },
             { path: "content", element: <Content /> },
+            // { path: "dashboard-admin", element: <Dashboard /> },
 
 
             { path: "data-list", element: <DataList /> },
