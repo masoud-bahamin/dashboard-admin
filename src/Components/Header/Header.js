@@ -3,6 +3,7 @@ import { useContext } from 'react'
 import MainContext from '../../Context'
 import Dropdown from '../Dropdown/Dropdown'
 import "./Header.css"
+import logo from "./../../img/l-1.jpg"
 
 export default function Header() {
 
@@ -181,7 +182,7 @@ export default function Header() {
                                         }}
                                     >
                                         <span className='fs-12 me-2'>Sarah Kortney</span>
-                                        <img src='/img/l-1.jpg' className='img-40 rounded-50' />
+                                        <img src={logo} className='img-40 rounded-50' />
                                     </div>
                                     <div className={show === "profile" ? 'bd-white py-2 shadow-sm border rounded dropdown-show' : 'bd-white py-2 shadow-sm border rounded dropdown-close'}>
                                         <ul>
