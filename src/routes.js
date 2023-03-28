@@ -21,6 +21,7 @@ import ToDoList from "./TodoList/ToDoList";
 
 const routes = [
     { path: "/", element: <Dashboard /> },
+     { path: "/*", element: <Dashboard /> },
     {
         path: "/dashboard", element: <MainDashboard />, children: [
             { path: "default", element: <Dashboard /> },
